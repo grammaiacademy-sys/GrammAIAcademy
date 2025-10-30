@@ -1,9 +1,21 @@
 'use client';
 
+import Navbar from '@/app/components/Navbar';
+import HeroSection from '@/app/components/HeroSection';
+import FeaturesSection from '@/app/components/FeaturesSection';
+import PricingSection from '@/app/components/PricingSection';
+import AboutSection from '@/app/components/AboutSection';
+import Footer from '@/app/components/Footer';
+
 export default function Home() {
   return (
-    <div data-editor-id="app/page.tsx:5:5" className="flex flex-col items-center justify-center size-full">
-      <h1 data-editor-id="app/page.tsx:6:7" className="text-4xl font-bold">Start Building Your Cosmic Project</h1>
-    </div>);
-
+    <main className="min-h-screen">
+      <Navbar />
+      <HeroSection />
+      <FeaturesSection />
+      <AboutSection />
+      <PricingSection />
+      <Footer />
+    </main>
+  );
 }
