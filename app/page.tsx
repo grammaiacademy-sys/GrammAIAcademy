@@ -9,13 +9,13 @@ import Footer from '@/app/components/Footer';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main data-editor-id="app/page.tsx:12:5" className="min-h-screen">
       <Navbar />
       <HeroSection />
       <FeaturesSection />
       <AboutSection />
       <PricingSection />
       <Footer />
-    </main>
-  );
+    </main>);
+
 }

@@ -5,26 +5,26 @@ import "./globals.css";
 
 const primaryFont = Inter({
   weight: ["300", "400", "500", "600"],
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
   title: "RestorePro - Smart Xactimate Line Item Search",
-  description: "AI-powered smart search for restoration professionals. Find the right line items for water, fire, mold, and rebuild projects.",
+  description: "AI-powered smart search for restoration professionals. Find the right line items for water, fire, mold, and rebuild projects."
 };
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+  children
+
+
+}: {children: React.ReactNode;}) {
   return (
-    <html lang="en" className={primaryFont.className}>
-      <body className="antialiased">
+    <html data-editor-id="app/layout.tsx:22:5" lang="en" className={primaryFont.className}>
+      <body data-editor-id="app/layout.tsx:23:7" className="antialiased">
         <AuthProvider>
           {children}
         </AuthProvider>
       </body>
-    </html>
-  );
+    </html>);
+
 }
