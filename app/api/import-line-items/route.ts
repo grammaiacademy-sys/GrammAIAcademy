@@ -4,7 +4,7 @@ import { db } from 'cosmic-database';
 import { parse } from 'csv-parse/sync';
 import * as XLSX from 'xlsx';
 
-const FILES_BASE = 'https://files.cosmic.new/files';
+const FILES_BASE = C:\Users\brett\OneDrive\Desktop;
 
 function normalizeDescription(input: string): string {
   return (input || '').replace(/\s+/g, ' ').trim();
